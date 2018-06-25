@@ -19,6 +19,8 @@ And be careful, to install CUDA Toolkit 9.0 and cuDNN SDK v7, you have to follow
 
 You will probably need a few more things when executing some scripts, and pip3 will be your friend for this ;)
 
+Get mobilenet v1 model: http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz
+
 ## Structure
 
 The project has a classic structure :
@@ -45,6 +47,8 @@ You have to duplicate some properties into the config.cfg files to configure you
 - CONFIG_FILE: Model's configuration
 
 Execute "chmod +x" on the differents bin files.
+
+Extract mobilenet v1 model into models folder (the model must be into models/ssd_mobilenet_v1_coco_11_06_2017)
 
 ## Train your model
 

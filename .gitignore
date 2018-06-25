@@ -1,0 +1,9 @@
+/data/*
+/graph/*
+/images/train/*
+/images/test/*
+/models/*
+/training/*
+!/training/object-detection.pbtxt
+!**.config
+**/pipeline.config
