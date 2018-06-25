@@ -74,11 +74,10 @@ The procedure is the same but you have to change a few things in advance:
 - Copy the corresponding config file into training
 - Update CONFIG_FILE parameter to match the new config file
 - Update new config file following properties:
-
-train_config.fine_tune_checkpoint: "../models/<YOUR_ANOTHER_PRETRAINED_MODEL_FOLDER>/model.ckpt"
-train_input_reader.tf_record_input_reader.input_path: "../data/train.record"
-train_input_reader.label_map_path: "../training/object-detection.pbtxt"
-eval_input_reader.tf_record_input_reader.input_path: "../data/test.record"
-eval_input_readerlabel_map_path: "../training/object-detection.pbtxt"
+  - train_config.fine_tune_checkpoint: "../models/<YOUR_ANOTHER_PRETRAINED_MODEL_FOLDER>/model.ckpt"
+  - train_input_reader.tf_record_input_reader.input_path: "../data/train.record"
+  - train_input_reader.label_map_path: "../training/object-detection.pbtxt"
+  - eval_input_reader.tf_record_input_reader.input_path: "../data/test.record"
+  - eval_input_readerlabel_map_path: "../training/object-detection.pbtxt"
 
 
