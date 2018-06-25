@@ -8,8 +8,8 @@ The idea is to help new users to have a turnkey environment on Ubuntu to use Ten
 
 ## Prerequisites
 
-In order to use this environment, you would still have to install [tensorflow-gpu](https://www.tensorflow.org/install/install_linux) and all its dependencies.
-I build this environment with TensorFlow 1.8 and I advise you to do the same.
+In order to use this environment, you to install [tensorflow-gpu](https://www.tensorflow.org/install/install_linux) and all its dependencies.
+I built this environment using TensorFlow 1.8 and I advise you to do the same.
 And be careful, to install CUDA Toolkit 9.0 and cuDNN SDK v7, you have to follow the full corresponding Nvidia documentation (it takes me approximatically one day).
 
 - Ubuntu 18.04
