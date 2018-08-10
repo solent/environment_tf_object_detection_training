@@ -80,4 +80,6 @@ The procedure is the same but you have to change a few things in advance:
   - eval_input_reader.tf_record_input_reader.input_path: "../data/test.record"
   - eval_input_readerlabel_map_path: "../training/object-detection.pbtxt"
 
+## Others informations
 
+To use faster_rcnn, use this hack: https://github.com/tensorflow/models/issues/3705#issuecomment-375563179
